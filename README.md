@@ -82,7 +82,7 @@ mvn spring-boot:run
 - PUT	/wildtrack	Update an animal record
 - DELETE	/wildtrack/{id}	Delete an animal by ID
 ##Directory Structure
-
+```bash
 wild-track/
 ├── src/
 │   ├── main/
@@ -99,6 +99,7 @@ wild-track/
 ├── target/
 ├── pom.xml
 └── README.md
+```
 ##Future Enhancements
 Integrate advanced search and filter options.
 Implement user roles with detailed permissions.
