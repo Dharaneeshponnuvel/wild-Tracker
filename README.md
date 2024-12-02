@@ -31,7 +31,7 @@ Wild Track is an animal tracking and management system built using **Spring Boot
 git clone <repository-url>
 cd wild-track
 ```
-##2. Set Up the Database
+## 2. Set Up the Database
 Create a PostgreSQL database named wildtrack.
 
 Use the following credentials in your application:
@@ -51,7 +51,7 @@ CREATE TABLE wildtrack (
     description TEXT
 );
 ```
-##3. Configure the Application
+## 3. Configure the Application
 Update the application.properties file in the src/main/resources directory:
 
 properties
@@ -63,7 +63,7 @@ spring.datasource.password=2010
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
-###4. Build and Run the Application
+### 4. Build and Run the Application
 Build the project using Maven:
 
 ```bash
@@ -71,7 +71,7 @@ mvn clean install
 Run the Spring Boot application:
 mvn spring-boot:run
 ```
-##5. Access the Application
+## 5. Access the Application
 - Backend API: http://localhost:8080
 - React Frontend (if integrated): http://localhost:3000
  -API Endpoints
@@ -81,7 +81,7 @@ mvn spring-boot:run
 - POST	/wildtrack	Add a new animal record
 - PUT	/wildtrack	Update an animal record
 - DELETE	/wildtrack/{id}	Delete an animal by ID
-##Directory Structure
+## Directory Structure
 ```bash
 wild-track/
 ├── src/
@@ -100,7 +100,7 @@ wild-track/
 ├── pom.xml
 └── README.md
 ```
-##Future Enhancements
+## Future Enhancements
 Integrate advanced search and filter options.
 Implement user roles with detailed permissions.
 Add analytics dashboards for population trends.
@@ -108,7 +108,7 @@ Improve frontend visuals with ReactJS and TailwindCSS.
 Contributing
 Contributions are welcome! Please follow the contribution guidelines.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 This format will render properly when viewed on GitHub or any Markdown-compatible viewer. Let me know if you need further adjustments!
