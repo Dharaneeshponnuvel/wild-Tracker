@@ -1,0 +1,39 @@
+.dashboard {
+    padding: 20px;
+}
+
+.navbar {
+    height: 50px; /* Set height for the navbar */
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    display: flex; /* Flex layout for navbar items */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.add-animal-form {
+    margin-top: 20px; /* Space below the navbar */
+    padding: 10px; /* Padding around the form */
+    background: white; /* Background color for visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+.animal-list {
+    margin-top: 20px; /* Space above the animal list */
+}
+
+.animal-item {
+    margin-bottom: 20px; /* Spacing between animal items */
+}
+
+.animal-item img {
+    width: 100px; /* Set the width to 100px */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin-bottom: 10px; /* Space between image and text */
+}
+html, body {
+    height: 100%;   /* Ensure the body takes full height */
+    margin: 0;      /* Remove default margins */
+    overflow-y: auto; /* Enable vertical scrolling */
+}

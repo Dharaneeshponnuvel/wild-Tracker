@@ -1,0 +1,133 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Profile details styling */
+.profile-details {
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+
+.profile-details .edit-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-details .edit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Form styling when editing */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.edit-form .form-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.edit-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.edit-form button[type="button"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.edit-form button[type="button"]:hover {
+    background-color: #c82333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .edit-form {
+        gap: 10px;
+    }
+
+    .edit-form input {
+        font-size: 0.9rem;
+    }
+
+    .edit-form button {
+        padding: 8px 16px;
+    }
+}
